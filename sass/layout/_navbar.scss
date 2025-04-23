@@ -1,0 +1,27 @@
+
+.navbar__container {
+    background-color: $navbar-bg-color;
+    min-height: 4.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .navbar__navigation {
+        ul {
+            display: flex;
+            gap: 1rem;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: $white-color;
+                    &:hover {
+                        color: $strong-primary-color;
+                    };
+                    &:visited {
+                        color: $light-primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
