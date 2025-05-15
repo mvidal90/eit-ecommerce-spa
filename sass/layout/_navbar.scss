@@ -20,6 +20,7 @@
                     color: $white-color;
                     &:hover {
                         color: $strong-primary-color;
+                        cursor: pointer;
                     };
                     &:visited {
                         color: $light-primary-color;

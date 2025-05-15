@@ -1,0 +1,64 @@
+<div>
+    <h2>Alta de productos</h2>
+    <div class="grid">
+        <div class="col-xs-12 col-md-6 col-lg-5 col-xl-4">
+            <form class="form__container" onsubmit="uploadSubmit(event)">
+                <div class="form__input-group">
+                    <label class="form__label" for="name" required>Nombre del producto</label>
+                    <input class="form__input" type="text" name="name" id="name">
+                    <span id="name-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="price" required>Precio</label>
+                    <input class="form__input" type="numer" name="price" id="price">
+                    <span id="price-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="stock" required>Stock</label>
+                    <input class="form__input" type="numer" name="stock" id="stock">
+                    <span id="stock-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="brand" required>Marca</label>
+                    <input class="form__input" type="text" name="brand" id="brand">
+                    <span id="brand-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="category" required>Categoría</label>
+                    <input class="form__input" type="text" name="category" id="category">
+                    <span id="category-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="short_description">Descripción Corta</label>
+                    <input class="form__input" type="text" name="short_description" id="short_description">
+                    <span id="short_description-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="large_description">Descripción Larga</label>
+                    <textarea class="form__input" name="large_description" id="large_description"></textarea>
+                    <span id="large_description-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group d-flex align-center">
+                    <input class="form__input" type="checkbox" name="free_delivery" id="free_delivery">
+                    <label class="form__label" for="free_delivery">Envío sin cargo</label>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="age_from">Edad desde</label>
+                    <input class="form__input" type="numer" name="age_from" id="age_from">
+                    <span id="age_from-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="age_to">Edad Hasta</label>
+                    <input class="form__input" type="numer" name="age_to" id="age_to">
+                    <span id="age_to-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="image">Imagen</label>
+                    <input class="form__input" type="file" name="image" id="image">
+                    <span id="image-error" class="form__error"></span>
+                </div>
+                <button type="submit" class="form__submit btn btn__primary"><i class="fa-solid fa-paper-plane"></i>Guardar producto</button>
+            </form>
+        </div>
+    </div>
+</div>

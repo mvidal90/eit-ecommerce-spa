@@ -10,12 +10,12 @@
 <body>
     <header class="navbar__container">
         <div class="container d-flex space-between">
-            <a href="./index.html"><h1>Juguetería Cósmica</h1></a>
+            <a onclick="onLoadTemplate('home')"><h1>Juguetería Cósmica</h1></a>
             <nav class="navbar__navigation">
                 <ul>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="../pages/upload.html">Alta</a></li>
-                    <li><a href="/pages/contact.html">Contactanos</a></li>
+                    <li><a >Sobre Nosotros</a></li>
+                    <li><a onclick="onLoadTemplate('upload')">Alta</a></li>
+                    <li><a onclick="onLoadTemplate('contact')">Contactanos</a></li>
                 </ul>
             </nav>
             <button class="navbar__menu-button btn btn__primary-outline" onclick="handleMenu()">
@@ -27,81 +27,13 @@
         <aside id="mobile_menu" class="menu__container">
             <nav class="menu__navigation">
                 <ul>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="../pages/upload.html">Alta</a></li>
-                    <li><a href="/pages/contact.html">Contactanos</a></li>
+                    <li><a >Sobre Nosotros</a></li>
+                    <li><a onclick="onLoadTemplate('upload')">Alta</a></li>
+                    <li><a onclick="onLoadTemplate('contact')">Contactanos</a></li>
                 </ul>
             </nav>
         </aside>
-        <main class="container">
-            <h2>Productos</h2>
-            <div class="grid">
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-                <div class="card col-12 col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                    <img src="./images/metegol.jpg" alt="Imagen de metegol">
-                    <div class="m-4">
-                        <h3>Metegol</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt blanditiis est corrupti illo. Aliquid adipisci quis obcaecati dolorum ex a ducimus incidunt architecto laboriosam, quibusdam nam, repellat error consectetur!</p>
-                        <div class="d-flex justify-end w-100"><button class="btn  btn__secondary">Comprar</button></div>
-                    </div>
-                </div>
-            </div>
-        </main>
+        <main class="container"></main>
     </div>
     <footer class="footer__container">
         <div class="footer__wrapp container">
@@ -115,5 +47,8 @@
         </div>
     </footer>
     <script src="./js/index.js"></script>
+    <script src="../js/contact.js"></script>
+    <script src="../js/upload.js"></script>
+    <script src="../js/routes.js"></script>
 </body>
 </html>

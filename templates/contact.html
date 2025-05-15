@@ -1,0 +1,30 @@
+<div>
+    <h2>Contactanos</h2>
+    <div class="grid">
+        <div class="col-xs-12 col-md-6 col-lg-5 col-xl-4">
+            <form class="form__container" onsubmit="contactSubmit(event)">
+                <div class="form__input-group">
+                    <label class="form__label" for="name" required>Nombre</label>
+                    <input class="form__input" type="text" name="name" id="name">
+                    <span id="name-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="email" required>Email</label>
+                    <input class="form__input" type="text" name="email" id="email">
+                    <span id="email-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="subject" required>Asunto</label>
+                    <input class="form__input" type="text" name="subject" id="subject">
+                    <span id="subject-error" class="form__error"></span>
+                </div>
+                <div class="form__input-group">
+                    <label class="form__label" for="body" required>Mensaje</label>
+                    <textarea class="form__input" type="text" name="body" id="body"></textarea>
+                    <span id="body-error" class="form__error"></span>
+                </div>
+                <button type="submit" class="form__submit btn btn__primary"><i class="fa-solid fa-paper-plane"></i>Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
