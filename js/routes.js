@@ -2,7 +2,6 @@
 const mainElement = document.querySelector("main");
 
 const onLoadTemplate = template => {
-    console.log(template)
     if (template !== "home") {
         location.hash = template
     } else {
@@ -24,6 +23,10 @@ const initialLoadContent = () => {
 document.addEventListener("DOMContentLoaded", initialLoadContent)
 
 window.addEventListener("popstate", initialLoadContent)
+
+const handleBack = () => history.back();
+
+const handleForward = () => history.forward();
 
 // Conditional Lazy
 
